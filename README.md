@@ -2,7 +2,7 @@
 
 <p align="center">
     <a href="https://github.com/twentytwokhz/caen-api/releases/latest">
-		<img src="https://img.shields.io/github/manifest-json/v/twentytwokhz/caen-api?color=blue">
+		<img src="https://img.shields.io/github/v/release/twentytwokhz/caen-api?color=blue">
 	</a>
     <img src="https://img.shields.io/github/release-date/twentytwokhz/caen-api">
 	<a href="https://github.com/twentytwokhz/caen-api/blob/master/LICENSE">
