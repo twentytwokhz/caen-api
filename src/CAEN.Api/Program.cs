@@ -1,6 +1,6 @@
 ﻿// Copyright (c) Florin Bobis. All Rights Reserved.
 
-using CAEN.Api.Services;
+using CAEN.Library.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;

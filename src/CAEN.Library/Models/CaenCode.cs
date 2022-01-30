@@ -1,9 +1,8 @@
 ﻿// Copyright (c) Florin Bobis. All Rights Reserved.
 
-using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
-namespace CAEN.Api.Models
+namespace CAEN.Library.Models
 {
     public class Section : ISearchableCaen
     {

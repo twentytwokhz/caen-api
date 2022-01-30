@@ -1,5 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System.Text.Json;
+﻿// Copyright (c) Florin Bobis. All Rights Reserved.
+
 using CAEN.Import;
 
 Console.WriteLine("Press any key to start importing data...");

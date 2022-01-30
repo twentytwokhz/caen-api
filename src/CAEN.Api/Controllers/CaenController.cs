@@ -1,6 +1,6 @@
 ﻿// Copyright (c) Florin Bobis. All Rights Reserved.
 
-using CAEN.Api.Services;
+using CAEN.Library.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CAEN.Api.Controllers

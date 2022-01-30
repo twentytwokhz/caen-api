@@ -1,6 +1,6 @@
 ﻿// Copyright (c) Florin Bobis. All Rights Reserved.
 
-namespace CAEN.Api.Models
+namespace CAEN.Library.Models
 {
     public interface ISearchableCaen
     {
