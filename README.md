@@ -1,8 +1,4 @@
-<h1 align="center">Advanced Slides for Obsidian</h1>
-
-<p align="center">
-  <img  src="https://raw.githubusercontent.com/MSzturc/obsidian-advanced-slides/main/imgs/demo.gif">
-</p>
+<h1 align="center">CAEN API</h1>
 
 <p align="center">
     <a href="https://github.com/twentytwokhz/caen-api/releases/latest">
