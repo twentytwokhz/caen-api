@@ -7,6 +7,6 @@ namespace CAEN.Library.Services
     public interface ICaenService
     {
         List<CaenCode> GetCodesByFilter(string sectionId = null, string divisionId = null, string groupId = null);
-        List<Section> SearchCode(string query);
+        List<CaenCode> SearchCode(string query);
     }
 }

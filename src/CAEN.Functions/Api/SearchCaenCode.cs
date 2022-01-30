@@ -35,7 +35,7 @@ namespace CAEN.Functions.Api
             }
 
             response = req.CreateResponse(HttpStatusCode.OK);
-            await response.WriteAsJsonAsync<List<Section>>(result);
+            await response.WriteAsJsonAsync<List<CaenCode>>(result);
 
             return response;
         }
