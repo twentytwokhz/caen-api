@@ -26,11 +26,12 @@ namespace CAEN.Library.Services
                           where (sectionId != null ? section.ID.ToLower() == sectionId.ToLower() : true) &&
                                 (divisionId != null ? division.ID.ToLower() == divisionId.ToLower() : true) &&
                                 (groupId != null ? gr.ID.ToLower() == groupId.ToLower() : true)
-                          select code).ToList();
+                          select code)
+                          .Distinct().ToList();
             return result;
         }
 
-        public List<Section> SearchCode(string query)
+        public List<CaenCode> SearchCode(string query)
         {
             var result = (from section in list
                           from division in section.Divisions
@@ -40,7 +41,7 @@ namespace CAEN.Library.Services
                                 division.Search(query.ToLower()) ||
                                 gr.Search(query.ToLower()) ||
                                 code.Search(query.ToLower())
-                          select section)
+                          select code)
                           .Distinct().ToList();
             return result;
         }
