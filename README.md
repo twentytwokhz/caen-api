@@ -4,7 +4,6 @@
     <img src="https://img.shields.io/github/v/release/twentytwokhz/caen-api">
 </a>
 <img src="https://img.shields.io/github/release-date/twentytwokhz/caen-api">
-<br />
 <img src="https://img.shields.io/tokei/lines/github/twentytwokhz/caen-api">
 <a href="https://github.com/twentytwokhz/caen-api/issues">
     <img src="https://img.shields.io/github/issues/twentytwokhz/caen-api">
