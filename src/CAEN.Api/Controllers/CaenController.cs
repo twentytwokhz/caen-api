@@ -18,26 +18,42 @@ namespace CAEN.Api.Controllers
         }
 
         [HttpGet()]
-        public IActionResult GetAll()
+        public IActionResult GetAllCodes()
         {
-            return Ok(caenService.GetAll());
+            var result = caenService.GetCodesByFilter();
+            if (result.Count == 0)
+            {
+                return NotFound();
+            }
+            return Ok(result);
+        }
+
+        [HttpGet("search/{query}")]
+        public IActionResult SearchCodes(string query)
+        {
+            var result = caenService.SearchCode(query);
+            if (result.Count == 0)
+            {
+                return NotFound();
+            }
+            return Ok(result);
         }
 
         [HttpGet("{sectionId}")]
-        public IActionResult GetSectionCodes(string sectionId)
+        public IActionResult GetCodesBySection(string sectionId)
         {
-            var result = caenService.GetSectionCodes(sectionId);
+            var result = caenService.GetCodesByFilter(sectionId);
             if (result.Count == 0)
             {
-               return NotFound();
+                return NotFound();
             }
             return Ok(result);
         }
 
         [HttpGet("{sectionId}/{divisionId}")]
-        public IActionResult GetDivisionCodes(string sectionId, string divisionId)
+        public IActionResult GetCodesByDivision(string sectionId, string divisionId)
         {
-            var result = caenService.GetDivisionCodes(sectionId, divisionId);
+            var result = caenService.GetCodesByFilter(sectionId, divisionId);
             if (result.Count == 0)
             {
                 return NotFound();
@@ -46,9 +62,9 @@ namespace CAEN.Api.Controllers
         }
 
         [HttpGet("{sectionId}/{divisionId}/{groupId}")]
-        public IActionResult GetGroupCodes(string sectionId, string divisionId, string groupId)
+        public IActionResult GetCodesByGroup(string sectionId, string divisionId, string groupId)
         {
-            var result = caenService.GetGroupCodes(sectionId, divisionId, groupId);
+            var result = caenService.GetCodesByFilter(sectionId, divisionId, groupId);
             if (result.Count == 0)
             {
                 return NotFound();

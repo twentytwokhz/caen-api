@@ -7,9 +7,7 @@ namespace CAEN.Api.Services
 {
     public interface ICaenService
     {
-        List<CaenCode> GetAll();
-        List<CaenCode> GetSectionCodes(string sectionId);
-        List<CaenCode> GetDivisionCodes(string sectionId, string divisionId);
-        List<CaenCode> GetGroupCodes(string sectionId, string divisionId, string groupId);
+        List<CaenCode> GetCodesByFilter(string sectionId = null, string divisionId = null, string groupId = null);
+        List<Section> SearchCode(string query);
     }
 }

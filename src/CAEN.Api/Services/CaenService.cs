@@ -5,7 +5,6 @@ using System.IO;
 using System.Linq;
 using System.Text.Json;
 using CAEN.Api.Models;
-using Microsoft.Extensions.Logging;
 
 namespace CAEN.Api.Services
 {
@@ -21,48 +20,31 @@ namespace CAEN.Api.Services
             list = caenStore.Deserialize<List<Section>>();
         }
 
-        public List<CaenCode> GetAll()
+        public List<CaenCode> GetCodesByFilter(string sectionId = null, string divisionId = null, string groupId = null)
         {
             var result = (from section in list
                           from division in section.Divisions
                           from gr in division.Groups
                           from code in gr.Codes
-                          select code).ToList();
-            return result;
-        }
-        public List<CaenCode> GetSectionCodes(string sectionId)
-        {
-            var result = (from section in list
-                          from division in section.Divisions
-                          from gr in division.Groups
-                          from code in gr.Codes
-                          where section.ID.ToLower() == sectionId.ToLower()
+                          where (sectionId != null ? section.ID.ToLower() == sectionId.ToLower() : true) &&
+                                (divisionId != null ? division.ID.ToLower() == divisionId.ToLower() : true) &&
+                                (groupId != null ? gr.ID.ToLower() == groupId.ToLower() : true)
                           select code).ToList();
             return result;
         }
 
-        public List<CaenCode> GetDivisionCodes(string sectionId, string divisionId)
+        public List<Section> SearchCode(string query)
         {
             var result = (from section in list
                           from division in section.Divisions
                           from gr in division.Groups
                           from code in gr.Codes
-                          where section.ID.ToLower() == sectionId.ToLower()
-                                && division.ID.ToLower() == divisionId.ToLower()
-                          select code).ToList();
-            return result;
-        }
-
-        public List<CaenCode> GetGroupCodes(string sectionId, string divisionId, string groupId)
-        {
-            var result = (from section in list
-                          from division in section.Divisions
-                          from gr in division.Groups
-                          from code in gr.Codes
-                          where section.ID.ToLower() == sectionId.ToLower()
-                                && division.ID.ToLower() == divisionId.ToLower()
-                                && gr.ID.ToLower() == groupId.ToLower()
-                          select code).ToList();
+                          where section.Search(query.ToLower()) ||
+                                division.Search(query.ToLower()) ||
+                                gr.Search(query.ToLower()) ||
+                                code.Search(query.ToLower())
+                          select section)
+                          .Distinct().ToList();
             return result;
         }
     }
