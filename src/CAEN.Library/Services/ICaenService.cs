@@ -1,9 +1,8 @@
 ﻿// Copyright (c) Florin Bobis. All Rights Reserved.
 
-using System.Collections.Generic;
-using CAEN.Api.Models;
+using CAEN.Library.Models;
 
-namespace CAEN.Api.Services
+namespace CAEN.Library.Services
 {
     public interface ICaenService
     {
