@@ -1,17 +1,28 @@
-﻿<h1 align="center">CAEN API</h1>
+<h1 align="center">Advanced Slides for Obsidian</h1>
 
-<a href="https://github.com/twentytwokhz/caen-api/releases/latest">
-    <img src="https://img.shields.io/github/v/release/twentytwokhz/caen-api">
-</a>
-<img src="https://img.shields.io/github/release-date/twentytwokhz/caen-api">
-<img src="https://img.shields.io/tokei/lines/github/twentytwokhz/caen-api">
-<a href="https://github.com/twentytwokhz/caen-api/issues">
-    <img src="https://img.shields.io/github/issues/twentytwokhz/caen-api">
-</a>
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/MSzturc/obsidian-advanced-slides/main/imgs/demo.gif">
+</p>
 
----
+<p align="center">
+    <a href="https://github.com/twentytwokhz/caen-api/releases/latest">
+		<img src="https://img.shields.io/github/manifest-json/v/twentytwokhz/caen-api?color=blue">
+	</a>
+    <img src="https://img.shields.io/github/release-date/twentytwokhz/caen-api">
+	<a href="https://github.com/twentytwokhz/caen-api/blob/master/LICENSE">
+		<img src="https://img.shields.io/github/license/twentytwokhz/caen-api">
+	</a>
+	<a href="https://github.com/twentytwokhz/caen-api/issues">
+		<img src="https://img.shields.io/github/issues/twentytwokhz/caen-api">
+	</a>
+	<br>
+	<img src="https://img.shields.io/tokei/lines/github/twentytwokhz/caen-api">
+</p>
+
+<div align="center">
 This is an open-source effort to democratize access to the Romanian CAEN codes.
-Any person who wishes to use CAEN codes in their projects can use this API.
+Any person who wishes to use CAEN codes in their project can use this API.
+</div>
 
 ---
 ## Official reference
