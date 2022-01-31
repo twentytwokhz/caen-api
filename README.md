@@ -41,7 +41,7 @@ Vizitați directorul [src](https://github.com/twentytwokhz/caen-api/tree/master/
 ---
 ## Sursă date
 
-Datele au fost preluate și prelucrate de pe [acest](http://legislatie.just.ro/Public/DetaliiDocument/81727) site
+Datele au fost preluate și prelucrate de pe [acest](http://legislatie.just.ro/Public/DetaliiDocument/81727) site.
 Ulterior au fost transformate prin tool-ul de [import](https://github.com/twentytwokhz/caen-api/tree/master/src/CAEN.Import)
 
 ---
