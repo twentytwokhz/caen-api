@@ -8,21 +8,22 @@
 ![Lines of code](https://img.shields.io/tokei/lines/github/twentytwokhz/caen-api)
 [![Azure Static Web Apps CI/CD](https://github.com/twentytwokhz/caen-api/actions/workflows/azure-static-web-apps-lively-island-0c5aca203.yml/badge.svg)](https://github.com/twentytwokhz/caen-api/actions/workflows/azure-static-web-apps-lively-island-0c5aca203.yml)
 
-This is an open-source effort to democratize access to the Romanian CAEN codes.
-Any person who wishes to use CAEN codes in their project can use this API.
+Acesta este un efort open-source pentru a democratiza folosirea codurilor CAEN din România.
+Orice persoană care dorește să folosească coduri CAEN in proiecte personale e liber să folosească acest API.
 
 ---
-## Usage
-Currently the API is hosted on a temporary subdomain
+## Mod de utilizare
+Acest API este găzduit gratuit pe un subdomeniu temporar.
 https://caen-api.florinbobis.me
 
-The API can be hosted using Azure Static Web Apps or Azure Functions. Visit the `src` folder to learn more.
+API-ul poate fi găzduit de asemenea prin `Azure Static Web Apps`, `Azure Functions` sau alte variante de găzduire pentru aplicații web.
+Vizitați directorul [src](https://github.com/twentytwokhz/caen-api/tree/master/src) pentru a vedea mai multe.
 
-### Available endpoints
+### Endpoint-uri disponibile
 
-> Note: Parameters with `?` are optional
+> Notă: Parametrii cu `?` sunt opționali
 
-#### 1. Get CAEN Codes by section/division/group
+#### 1. Lista coduri CAEN Codes după secțiune/divizie/grup
 
 `https://caen-api.florinbobis.me/api/caen/{sectionId?}/{divisionId?}/{groupId?}`
 
@@ -31,16 +32,17 @@ The API can be hosted using Azure Static Web Apps or Azure Functions. Visit the 
 - https://caen-api.florinbobis.me/api/caen/A/1
 - https://caen-api.florinbobis.me/api/caen/A/1/11
 
-#### 2. Search CAEN Codes
+#### 2. Căutare cod CAEN
 
 `https://caen-api.florinbobis.me/api/search/{searchTerm}`
 
 - https://caen-api.florinbobis.me/api/search/plant
 
 ---
-## Official reference
+## Sursă date
 
-The data was parsed and curated from [here](http://legislatie.just.ro/Public/DetaliiDocument/81727)
+Datele au fost preluate și prelucrate de pe [acest](http://legislatie.just.ro/Public/DetaliiDocument/81727) site
+Ulterior au fost transformate prin tool-ul de [import](https://github.com/twentytwokhz/caen-api/tree/master/src/CAEN.Import)
 
 ---
 MIT licensed | Copyright © 2022 Florin Bobiș
