@@ -72,8 +72,9 @@ namespace CAEN.Import
                     }
                     writer.WriteStartObject();
                     var id = col4.Split(" - ")[0].Split(' ')[1];
+                    var name = col4.Split(" - ")[1];
                     writer.WriteString("Sectiune", id);
-                    writer.WriteString("Denumire", col4);
+                    writer.WriteString("Denumire", name);
                     writer.WriteStartArray("Diviziuni");
                 }
                 else if (isDivision)

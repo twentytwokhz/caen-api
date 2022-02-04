@@ -1,7 +1,7 @@
-﻿[
+[
   {
     "Sectiune": "A",
-    "Denumire": "SECȚIUNEA A - AGRICULTURA, SILVICULTURĂ ȘI PESCUIT",
+    "Denumire": "AGRICULTURA, SILVICULTURĂ ȘI PESCUIT",
     "Diviziuni": [
       {
         "Diviziune": "1",
@@ -337,7 +337,7 @@
   },
   {
     "Sectiune": "B",
-    "Denumire": "SECȚIUNEA B - INDUSTRIA EXTRACTIVĂ",
+    "Denumire": "INDUSTRIA EXTRACTIVĂ",
     "Diviziuni": [
       {
         "Diviziune": "5",
@@ -523,7 +523,7 @@
   },
   {
     "Sectiune": "C",
-    "Denumire": "SECȚIUNEA C - INDUSTRIA PRELUCRATOARE",
+    "Denumire": "INDUSTRIA PRELUCRATOARE",
     "Diviziuni": [
       {
         "Diviziune": "10",
@@ -2623,7 +2623,7 @@
   },
   {
     "Sectiune": "D",
-    "Denumire": "SECȚIUNEA D - PRODUCȚIA ȘI FURNIZAREA DE ENERGIE ELECTRICA ȘI TERMICA, GAZE, APA CALDA ȘI AER CONDIȚIONAT",
+    "Denumire": "PRODUCȚIA ȘI FURNIZAREA DE ENERGIE ELECTRICA ȘI TERMICA, GAZE, APA CALDA ȘI AER CONDIȚIONAT",
     "Diviziuni": [
       {
         "Diviziune": "35",
@@ -2701,7 +2701,7 @@
   },
   {
     "Sectiune": "E",
-    "Denumire": "SECȚIUNEA E - DISTRIBUTIA APEI; SALUBRITATE, GESTIONAREA DESEURILOR, ACTIVITĂȚI DE DECONTAMINARE",
+    "Denumire": "DISTRIBUTIA APEI; SALUBRITATE, GESTIONAREA DESEURILOR, ACTIVITĂȚI DE DECONTAMINARE",
     "Diviziuni": [
       {
         "Diviziune": "36",
@@ -2821,7 +2821,7 @@
   },
   {
     "Sectiune": "F",
-    "Denumire": "SECȚIUNEA F - CONSTRUCTII",
+    "Denumire": "CONSTRUCTII",
     "Diviziuni": [
       {
         "Diviziune": "41",
@@ -3031,7 +3031,7 @@
   },
   {
     "Sectiune": "G",
-    "Denumire": "SECȚIUNEA G - COMERT CU RIDICATA ȘI CU AMANUNTUL; REPARAREA AUTOVEHICULELOR ȘI MOTOCICLETELOR",
+    "Denumire": "COMERT CU RIDICATA ȘI CU AMANUNTUL; REPARAREA AUTOVEHICULELOR ȘI MOTOCICLETELOR",
     "Diviziuni": [
       {
         "Diviziune": "45",
@@ -3727,7 +3727,7 @@
   },
   {
     "Sectiune": "H",
-    "Denumire": "SECȚIUNEA H - TRANSPORT ȘI DEPOZITARE",
+    "Denumire": "TRANSPORT ȘI DEPOZITARE",
     "Diviziuni": [
       {
         "Diviziune": "49",
@@ -3991,7 +3991,7 @@
   },
   {
     "Sectiune": "I",
-    "Denumire": "SECȚIUNEA I - HOTELURI ȘI RESTAURANTE",
+    "Denumire": "HOTELURI ȘI RESTAURANTE",
     "Diviziuni": [
       {
         "Diviziune": "55",
@@ -4099,7 +4099,7 @@
   },
   {
     "Sectiune": "J",
-    "Denumire": "SECȚIUNEA J - INFORMATII ȘI COMUNICATII",
+    "Denumire": "INFORMATII ȘI COMUNICATII",
     "Diviziuni": [
       {
         "Diviziune": "58",
@@ -4375,7 +4375,7 @@
   },
   {
     "Sectiune": "K",
-    "Denumire": "SECȚIUNEA K - INTERMEDIERI FINANCIARE ȘI ASIGURĂRI",
+    "Denumire": "INTERMEDIERI FINANCIARE ȘI ASIGURĂRI",
     "Diviziuni": [
       {
         "Diviziune": "64",
@@ -4567,7 +4567,7 @@
   },
   {
     "Sectiune": "L",
-    "Denumire": "SECȚIUNEA L - TRANZACTII IMOBILIARE",
+    "Denumire": "TRANZACTII IMOBILIARE",
     "Diviziuni": [
       {
         "Diviziune": "68",
@@ -4621,7 +4621,7 @@
   },
   {
     "Sectiune": "M",
-    "Denumire": "SECȚIUNEA M - ACTIVITĂȚI PROFESIONALE, STIINTIFICE ȘI TEHNICE",
+    "Denumire": "ACTIVITĂȚI PROFESIONALE, STIINTIFICE ȘI TEHNICE",
     "Diviziuni": [
       {
         "Diviziune": "69",
@@ -4873,7 +4873,7 @@
   },
   {
     "Sectiune": "N",
-    "Denumire": "SECȚIUNEA N - ACTIVITĂȚI DE SERVICII ADMINISTRATIVE ȘI ACTIVITĂȚI DE SERVICII SUPORT",
+    "Denumire": "ACTIVITĂȚI DE SERVICII ADMINISTRATIVE ȘI ACTIVITĂȚI DE SERVICII SUPORT",
     "Diviziuni": [
       {
         "Diviziune": "77",
@@ -5227,7 +5227,7 @@
   },
   {
     "Sectiune": "O",
-    "Denumire": "SECȚIUNEA O - ADMINISTRATIE PUBLICA ȘI APARARE; ASIGURARI SOCIALE DIN SISTEMUL PUBLIC",
+    "Denumire": "ADMINISTRATIE PUBLICA ȘI APARARE; ASIGURARI SOCIALE DIN SISTEMUL PUBLIC",
     "Diviziuni": [
       {
         "Diviziune": "84",
@@ -5311,7 +5311,7 @@
   },
   {
     "Sectiune": "P",
-    "Denumire": "SECȚIUNEA P - INVĂȚĂMÂNT",
+    "Denumire": "INVĂȚĂMÂNT",
     "Diviziuni": [
       {
         "Diviziune": "85",
@@ -5425,7 +5425,7 @@
   },
   {
     "Sectiune": "Q",
-    "Denumire": "SECȚIUNEA Q - SĂNĂTATE ȘI ASISTENȚA SOCIALA",
+    "Denumire": "SĂNĂTATE ȘI ASISTENȚA SOCIALA",
     "Diviziuni": [
       {
         "Diviziune": "86",
@@ -5575,7 +5575,7 @@
   },
   {
     "Sectiune": "R",
-    "Denumire": "SECȚIUNEA R - ACTIVITĂȚI DE SPECTACOLE, CULTURALE ȘI RECREATIVE",
+    "Denumire": "ACTIVITĂȚI DE SPECTACOLE, CULTURALE ȘI RECREATIVE",
     "Diviziuni": [
       {
         "Diviziune": "90",
@@ -5725,7 +5725,7 @@
   },
   {
     "Sectiune": "S",
-    "Denumire": "SECȚIUNEA S - ALTE ACTIVITĂȚI DE SERVICII",
+    "Denumire": "ALTE ACTIVITĂȚI DE SERVICII",
     "Diviziuni": [
       {
         "Diviziune": "94",
@@ -5899,7 +5899,7 @@
   },
   {
     "Sectiune": "T",
-    "Denumire": "SECȚIUNEA T - ACTIVITĂȚI ALE GOSPODARIILOR PRIVATE IN CALITATE DE ANGAJATOR DE PERSONAL CASNIC; ACTIVITĂȚI ALE GOSPODARIILOR PRIVATE DE PRODUCERE DE BUNURI ȘI SERVICII DESTINATE CONSUMULUI PROPRIU",
+    "Denumire": "ACTIVITĂȚI ALE GOSPODARIILOR PRIVATE IN CALITATE DE ANGAJATOR DE PERSONAL CASNIC; ACTIVITĂȚI ALE GOSPODARIILOR PRIVATE DE PRODUCERE DE BUNURI ȘI SERVICII DESTINATE CONSUMULUI PROPRIU",
     "Diviziuni": [
       {
         "Diviziune": "97",
@@ -5953,7 +5953,7 @@
   },
   {
     "Sectiune": "U",
-    "Denumire": "SECȚIUNEA U - ACTIVITĂȚI ALE ORGANIZAȚIILOR ȘI ORGANISMELOR EXTRATERITORIALE",
+    "Denumire": "ACTIVITĂȚI ALE ORGANIZAȚIILOR ȘI ORGANISMELOR EXTRATERITORIALE",
     "Diviziuni": [
       {
         "Diviziune": "99",
