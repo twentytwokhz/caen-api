@@ -17,17 +17,6 @@ namespace CAEN.Api.Controllers
             this.caenService = caenService;
         }
 
-        [HttpGet()]
-        public IActionResult GetAllCodes()
-        {
-            var result = caenService.GetCodesByFilter();
-            if (result.Count == 0)
-            {
-                return NotFound();
-            }
-            return Ok(result);
-        }
-
         [HttpGet("search/{query}")]
         public IActionResult SearchCodes(string query)
         {
@@ -39,30 +28,8 @@ namespace CAEN.Api.Controllers
             return Ok(result);
         }
 
-        [HttpGet("{sectionId}")]
-        public IActionResult GetCodesBySection(string sectionId)
-        {
-            var result = caenService.GetCodesByFilter(sectionId);
-            if (result.Count == 0)
-            {
-                return NotFound();
-            }
-            return Ok(result);
-        }
-
-        [HttpGet("{sectionId}/{divisionId}")]
-        public IActionResult GetCodesByDivision(string sectionId, string divisionId)
-        {
-            var result = caenService.GetCodesByFilter(sectionId, divisionId);
-            if (result.Count == 0)
-            {
-                return NotFound();
-            }
-            return Ok(result);
-        }
-
-        [HttpGet("{sectionId}/{divisionId}/{groupId}")]
-        public IActionResult GetCodesByGroup(string sectionId, string divisionId, string groupId)
+        [HttpGet("{sectionId?}/{divisionId?}/{groupId?}")]
+        public IActionResult GetCodesByFilter(string sectionId, string divisionId, string groupId)
         {
             var result = caenService.GetCodesByFilter(sectionId, divisionId, groupId);
             if (result.Count == 0)

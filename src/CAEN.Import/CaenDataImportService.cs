@@ -116,7 +116,7 @@ namespace CAEN.Import
                 else if (isClass)
                 {
                     writer.WriteStartObject();
-                    writer.WriteString("CAENRev2", col3);
+                    writer.WriteString("CAENRev2", col3.PadLeft(4, '0'));
                     writer.WriteString("Denumire", col4);
                     writer.WriteString("CAENRev1", col5);
                     writer.WriteString("ISICRev4", col6);

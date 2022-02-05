@@ -12,43 +12,43 @@
             "Denumire": "Cultivarea plantelor nepermanente",
             "Clase": [
               {
-                "CAENRev2": "111",
+                "CAENRev2": "0111",
                 "Denumire": "Cultivarea cerealelor (exclusiv orez) plantelor leguminoase și a plantelor producătoare de semințe oleaginoase",
                 "CAENRev1": "0111*0112*",
                 "ISICRev4": "111"
               },
               {
-                "CAENRev2": "112",
+                "CAENRev2": "0112",
                 "Denumire": "Cultivarea orezului",
                 "CAENRev1": "0111*",
                 "ISICRev4": "112"
               },
               {
-                "CAENRev2": "113",
+                "CAENRev2": "0113",
                 "Denumire": "Cultivarea legumelor și a pepenilor, a rădăcinoaselor și tuberculilor",
                 "CAENRev1": "0111*0112*",
                 "ISICRev4": "113"
               },
               {
-                "CAENRev2": "114",
+                "CAENRev2": "0114",
                 "Denumire": "Cultivarea trestiei de zahăr",
                 "CAENRev1": "0111*",
                 "ISICRev4": "114"
               },
               {
-                "CAENRev2": "115",
+                "CAENRev2": "0115",
                 "Denumire": "Cultivarea tutunului",
                 "CAENRev1": "0111*",
                 "ISICRev4": "0115*"
               },
               {
-                "CAENRev2": "116",
+                "CAENRev2": "0116",
                 "Denumire": "Cultivarea plantelor pentru fibre textile",
                 "CAENRev1": "0111*",
                 "ISICRev4": "116"
               },
               {
-                "CAENRev2": "119",
+                "CAENRev2": "0119",
                 "Denumire": "Cultivarea altor plante din culturi nepermanente",
                 "CAENRev1": "0111*0112*",
                 "ISICRev4": "119"
@@ -60,55 +60,55 @@
             "Denumire": "Cultivarea plantelor din culturi permanente",
             "Clase": [
               {
-                "CAENRev2": "121",
+                "CAENRev2": "0121",
                 "Denumire": "Cultivarea strugurilor",
                 "CAENRev1": "0113*",
                 "ISICRev4": "121"
               },
               {
-                "CAENRev2": "122",
+                "CAENRev2": "0122",
                 "Denumire": "Cultivarea fructelor tropicale și subtropicale",
                 "CAENRev1": "0113*",
                 "ISICRev4": "122"
               },
               {
-                "CAENRev2": "123",
+                "CAENRev2": "0123",
                 "Denumire": "Cultivarea fructelor citrice",
                 "CAENRev1": "0113*",
                 "ISICRev4": "123"
               },
               {
-                "CAENRev2": "124",
+                "CAENRev2": "0124",
                 "Denumire": "Cultivarea fructelor semințoase și sâmburoase",
                 "CAENRev1": "0113*",
                 "ISICRev4": "124"
               },
               {
-                "CAENRev2": "125",
+                "CAENRev2": "0125",
                 "Denumire": "Cultivarea fructelor arbuștilor fructiferi, căpșunilor, nuciferilor și a altor pomi fructiferi",
                 "CAENRev1": "0112*0113*",
                 "ISICRev4": "125"
               },
               {
-                "CAENRev2": "126",
+                "CAENRev2": "0126",
                 "Denumire": "Cultivarea fructelor oleaginoase",
                 "CAENRev1": "0111*0113*",
                 "ISICRev4": "126"
               },
               {
-                "CAENRev2": "127",
+                "CAENRev2": "0127",
                 "Denumire": "Cultivarea plantelor pentru prepararea băuturilor",
                 "CAENRev1": "0113*",
                 "ISICRev4": "127"
               },
               {
-                "CAENRev2": "128",
+                "CAENRev2": "0128",
                 "Denumire": "Cultivarea condimentelor, plantelor aromatice,medicinale și a plantelor de uz farmaceutic",
                 "CAENRev1": "0111*0112*0113*",
                 "ISICRev4": "128"
               },
               {
-                "CAENRev2": "129",
+                "CAENRev2": "0129",
                 "Denumire": "Cultivarea altor plante permanente",
                 "CAENRev1": "0111*0201*",
                 "ISICRev4": "129"
@@ -120,7 +120,7 @@
             "Denumire": "Cultivarea plantelor pentru înmulțire",
             "Clase": [
               {
-                "CAENRev2": "130",
+                "CAENRev2": "0130",
                 "Denumire": "Cultivarea plantelor pentru înmulțire",
                 "CAENRev1": "0112*",
                 "ISICRev4": "130"
@@ -132,49 +132,49 @@
             "Denumire": "Creșterea animalelor",
             "Clase": [
               {
-                "CAENRev2": "141",
+                "CAENRev2": "0141",
                 "Denumire": "Creșterea bovinelor de lapte",
                 "CAENRev1": "0121*",
                 "ISICRev4": "0141*"
               },
               {
-                "CAENRev2": "142",
+                "CAENRev2": "0142",
                 "Denumire": "Creșterea altor bovine",
                 "CAENRev1": "0121*",
                 "ISICRev4": "0141*"
               },
               {
-                "CAENRev2": "143",
+                "CAENRev2": "0143",
                 "Denumire": "Creșterea cailor și a altor cabaline",
                 "CAENRev1": "0122*",
                 "ISICRev4": "142"
               },
               {
-                "CAENRev2": "144",
+                "CAENRev2": "0144",
                 "Denumire": "Creșterea cămilelor și a camelidelor",
                 "CAENRev1": "0125*",
                 "ISICRev4": "143"
               },
               {
-                "CAENRev2": "145",
+                "CAENRev2": "0145",
                 "Denumire": "Creșterea ovinelor și caprinelor",
                 "CAENRev1": "0122*",
                 "ISICRev4": "144"
               },
               {
-                "CAENRev2": "146",
+                "CAENRev2": "0146",
                 "Denumire": "Creșterea porcinelor",
                 "CAENRev1": "123",
                 "ISICRev4": "145"
               },
               {
-                "CAENRev2": "147",
+                "CAENRev2": "0147",
                 "Denumire": "Creșterea pasărilor",
                 "CAENRev1": "124",
                 "ISICRev4": "146"
               },
               {
-                "CAENRev2": "149",
+                "CAENRev2": "0149",
                 "Denumire": "Creșterea altor animale",
                 "CAENRev1": "0122*0125*",
                 "ISICRev4": "149"
@@ -186,7 +186,7 @@
             "Denumire": "Activităti în ferme mixte (cultura vegetală combinata cu creșterea animalelor)",
             "Clase": [
               {
-                "CAENRev2": "150",
+                "CAENRev2": "0150",
                 "Denumire": "Activități în ferme mixte (cultura vegetală combinată cu creșterea animalelor)",
                 "CAENRev1": "130",
                 "ISICRev4": "150"
@@ -198,25 +198,25 @@
             "Denumire": "Activități auxiliare agriculturii și activitati după recoltare",
             "Clase": [
               {
-                "CAENRev2": "161",
+                "CAENRev2": "0161",
                 "Denumire": "Activități auxiliare pentru producția vegetală",
                 "CAENRev1": "0141*",
                 "ISICRev4": "161"
               },
               {
-                "CAENRev2": "162",
+                "CAENRev2": "0162",
                 "Denumire": "Activități auxiliare pentru creșterea animale-lor",
                 "CAENRev1": "0142 9272*",
                 "ISICRev4": "162"
               },
               {
-                "CAENRev2": "163",
+                "CAENRev2": "0163",
                 "Denumire": "Activități după recoltare",
                 "CAENRev1": "0141*0111*0113*",
                 "ISICRev4": "163"
               },
               {
-                "CAENRev2": "164",
+                "CAENRev2": "0164",
                 "Denumire": "Pregătirea semințelor",
                 "CAENRev1": "0111*0112*0113*0141*",
                 "ISICRev4": "164"
@@ -228,7 +228,7 @@
             "Denumire": "Vânătoare, capturarea cu capcane a vânatului și activități de servicii anexe vânătorii",
             "Clase": [
               {
-                "CAENRev2": "170",
+                "CAENRev2": "0170",
                 "Denumire": "Vânătoare, capturarea cu capcane a vânatului și activităti de servicii anexe vânatorii",
                 "CAENRev1": "0150*",
                 "ISICRev4": "170"
@@ -246,7 +246,7 @@
             "Denumire": "Silvicultură și alte activități forestiere",
             "Clase": [
               {
-                "CAENRev2": "210",
+                "CAENRev2": "0210",
                 "Denumire": "Silvicultură și alte activități forestiere",
                 "CAENRev1": "0112*0201*",
                 "ISICRev4": "210"
@@ -258,7 +258,7 @@
             "Denumire": "Exploatarea forestieră",
             "Clase": [
               {
-                "CAENRev2": "220",
+                "CAENRev2": "0220",
                 "Denumire": "Exploatarea forestieră",
                 "CAENRev1": "0201*",
                 "ISICRev4": "220"
@@ -270,7 +270,7 @@
             "Denumire": "Colectarea produselor forestiere nelemnoase din flora spontană",
             "Clase": [
               {
-                "CAENRev2": "230",
+                "CAENRev2": "0230",
                 "Denumire": "Colectarea produselor forestiere nelemnoase din flora spontană",
                 "CAENRev1": "0112*0113*0201*",
                 "ISICRev4": "230"
@@ -282,7 +282,7 @@
             "Denumire": "Activități de servicii anexe silviculturii",
             "Clase": [
               {
-                "CAENRev2": "240",
+                "CAENRev2": "0240",
                 "Denumire": "Activități de servicii anexe silviculturii",
                 "CAENRev1": "0202 7414*",
                 "ISICRev4": "240"
@@ -300,13 +300,13 @@
             "Denumire": "Pescuitul",
             "Clase": [
               {
-                "CAENRev2": "311",
+                "CAENRev2": "0311",
                 "Denumire": "Pescuitul maritim",
                 "CAENRev1": "0501*",
                 "ISICRev4": "311"
               },
               {
-                "CAENRev2": "312",
+                "CAENRev2": "0312",
                 "Denumire": "Pescuitul în ape dulci",
                 "CAENRev1": "0501*",
                 "ISICRev4": "312"
@@ -318,13 +318,13 @@
             "Denumire": "Acvacultura",
             "Clase": [
               {
-                "CAENRev2": "321",
+                "CAENRev2": "0321",
                 "Denumire": "Acvacultura maritimă",
                 "CAENRev1": "0502*",
                 "ISICRev4": "321"
               },
               {
-                "CAENRev2": "322",
+                "CAENRev2": "0322",
                 "Denumire": "Acvacultura în ape dulci",
                 "CAENRev1": "0502*0125*",
                 "ISICRev4": "322"
@@ -348,7 +348,7 @@
             "Denumire": "Extracția cărbunelui superior (PCS =\u003E 23865 kJ/kg)",
             "Clase": [
               {
-                "CAENRev2": "510",
+                "CAENRev2": "0510",
                 "Denumire": "Extracția cărbunelui superior (PCS=\u003E23865 kJ/kg)",
                 "CAENRev1": "1010*",
                 "ISICRev4": "510"
@@ -360,7 +360,7 @@
             "Denumire": "Extracția cărbunelui inferior(PCS\u003C23865 kJ/kg)",
             "Clase": [
               {
-                "CAENRev2": "520",
+                "CAENRev2": "0520",
                 "Denumire": "Extracția carbunelui inferior(PCS\u003C23865 kJ/kg)",
                 "CAENRev1": "1020*",
                 "ISICRev4": "520"
@@ -378,7 +378,7 @@
             "Denumire": "Extracția petrolului brut",
             "Clase": [
               {
-                "CAENRev2": "610",
+                "CAENRev2": "0610",
                 "Denumire": "Extracția petrolului brut",
                 "CAENRev1": "1110*",
                 "ISICRev4": "610"
@@ -390,7 +390,7 @@
             "Denumire": "Extracția gazelor naturale",
             "Clase": [
               {
-                "CAENRev2": "620",
+                "CAENRev2": "0620",
                 "Denumire": "Extracția gazelor naturale",
                 "CAENRev1": "1110*",
                 "ISICRev4": "620"
@@ -408,7 +408,7 @@
             "Denumire": "Extracția minereurilor feroase",
             "Clase": [
               {
-                "CAENRev2": "710",
+                "CAENRev2": "0710",
                 "Denumire": "Extracția minereurilor feroase",
                 "CAENRev1": "1310*",
                 "ISICRev4": "710"
@@ -420,13 +420,13 @@
             "Denumire": "Extracția minereurilor metalifere neferoase",
             "Clase": [
               {
-                "CAENRev2": "721",
+                "CAENRev2": "0721",
                 "Denumire": "Extracția minereurilor de uraniu și toriu",
                 "CAENRev1": "1200*",
                 "ISICRev4": "721"
               },
               {
-                "CAENRev2": "729",
+                "CAENRev2": "0729",
                 "Denumire": "Extracția altor minereuri metalifere neferoase",
                 "CAENRev1": "1320*",
                 "ISICRev4": "729"
@@ -444,13 +444,13 @@
             "Denumire": "Extracția pietrei, nisipului și argilei",
             "Clase": [
               {
-                "CAENRev2": "811",
+                "CAENRev2": "0811",
                 "Denumire": "Extracția pietrei ornamentale și a pietrei pentru construcții, extracția pietrei calcaroase, gipsului, cretei și a ardeziei",
                 "CAENRev1": "1411*1412*1413*",
                 "ISICRev4": "0810*"
               },
               {
-                "CAENRev2": "812",
+                "CAENRev2": "0812",
                 "Denumire": "Extracția pietrișului și nisipului; extracția argilei și caolinului",
                 "CAENRev1": "1421*1422*",
                 "ISICRev4": "0810*"
@@ -462,25 +462,25 @@
             "Denumire": "Alte activități extractive n.c.a.",
             "Clase": [
               {
-                "CAENRev2": "891",
+                "CAENRev2": "0891",
                 "Denumire": "Extracția mineralelor pentru industria chimicași a îngrășămintelor naturale",
                 "CAENRev1": "1430*",
                 "ISICRev4": "891"
               },
               {
-                "CAENRev2": "892",
+                "CAENRev2": "0892",
                 "Denumire": "Extracția turbei",
                 "CAENRev1": "1030*",
                 "ISICRev4": "892"
               },
               {
-                "CAENRev2": "893",
+                "CAENRev2": "0893",
                 "Denumire": "Extracția sării",
                 "CAENRev1": "1440*",
                 "ISICRev4": "893"
               },
               {
-                "CAENRev2": "899",
+                "CAENRev2": "0899",
                 "Denumire": "Alte activităti extractive n.c.a",
                 "CAENRev1": "1450*",
                 "ISICRev4": "899"
@@ -498,7 +498,7 @@
             "Denumire": "Activități de servicii anexe extracției petrolului brut și gazelor naturale",
             "Clase": [
               {
-                "CAENRev2": "910",
+                "CAENRev2": "0910",
                 "Denumire": "Activități de servicii anexe extracției petrolului brut și gazelor naturale",
                 "CAENRev1": "1120 1110*",
                 "ISICRev4": "910"
@@ -510,7 +510,7 @@
             "Denumire": "Activități de servicii anexe pentru extracția mineralelor",
             "Clase": [
               {
-                "CAENRev2": "990",
+                "CAENRev2": "0990",
                 "Denumire": "Activități de servicii anexe pentru extracția mineralelor",
                 "CAENRev1": "1010*1020*1030*1200*1310*1320*1411*1412*1413*1421*1422*1430*1440*1450*",
                 "ISICRev4": "990"

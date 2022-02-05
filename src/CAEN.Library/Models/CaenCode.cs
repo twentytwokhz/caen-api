@@ -11,7 +11,7 @@ namespace CAEN.Library.Models
         [JsonPropertyName("Denumire")]
         public string Name { get; set; }
         [JsonPropertyName("Diviziuni")]
-        public List<Division> Divisions { get; set; }
+        public List<Division> Divisions { get; set; } = new List<Division>();
 
         public bool Search(string query)
         {
@@ -27,7 +27,7 @@ namespace CAEN.Library.Models
         [JsonPropertyName("Denumire")]
         public string Name { get; set; }
         [JsonPropertyName("Grupe")]
-        public List<Group> Groups { get; set; }
+        public List<Group> Groups { get; set; } = new List<Group>();
 
         public bool Search(string query)
         {
@@ -43,7 +43,7 @@ namespace CAEN.Library.Models
         [JsonPropertyName("Denumire")]
         public string Name { get; set; }
         [JsonPropertyName("Clase")]
-        public List<CaenCode> Codes { get; set; }
+        public List<CaenCode> Codes { get; set; } = new List<CaenCode>();
 
         public bool Search(string query)
         {

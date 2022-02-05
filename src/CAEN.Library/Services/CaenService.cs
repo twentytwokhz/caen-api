@@ -13,7 +13,8 @@ namespace CAEN.Library.Services
 
         public CaenService()
         {
-            caenStore = JsonDocument.Parse(File.ReadAllText(storePath));
+            var filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, storePath);
+            caenStore = JsonDocument.Parse(File.ReadAllText(filePath));
             list = caenStore.Deserialize<List<Section>>();
         }
 

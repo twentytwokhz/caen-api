@@ -6,7 +6,21 @@ namespace CAEN.Library.Services
 {
     public interface ICaenService
     {
-        List<CaenCode> GetCodesByFilter(string sectionId = null, string divisionId = null, string groupId = null);
+        /// <summary>
+        /// Aduce codurile caen in functie
+        /// de parametrii oferiti
+        /// </summary>
+        /// <param name="sectionId"></param>
+        /// <param name="divisionId"></param>
+        /// <param name="groupId"></param>
+        /// <returns></returns>
+        List<CaenCode> GetCodesByFilter(string sectionId, string divisionId, string groupId);
+        /// <summary>
+        /// Cauta coduri caen corespunzatoare
+        /// criteriului de cautare
+        /// </summary>
+        /// <param name="query"></param>
+        /// <returns></returns>
         List<CaenCode> SearchCode(string query);
     }
 }
